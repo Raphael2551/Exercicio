@@ -1,0 +1,50 @@
+Exercício 1.1 Quais são os 3 tipos de códigos básicos de uma página de hipertexto? Explique para
+que serve cada um dos tipos.
+
+R:Toda página HTML usa essas três tags:
+A tag <html> é o elemento raiz que define todo o documento HTML.
+A tag <head> contém metadados sobre o título e a codificação de caracteres da página.
+A tag <body> inclui todo o conteúdo que aparece na página.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Exercício 1.2 Quantos arquivos CSS e Javascript podem estar vinculados a uma mesma página de
+hipertexto? Justifique sua resposta.
+
+R:  Não existe um número específico de arquivos CSS ou JavaScript que possam ser vinculados a uma página web, cabe ao cirador do código decidir quantos vincular a mesma página HTML podendo variar a quantidade conforme a necessidade do projeto.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Exercício 1.3 É possível diferentes páginas de hipertexto terem vínculo com os mesmos arquivos
+Javascript e CSS? Justifique sua resposta.
+
+R: Sim, é comum que diferentes páginas de hipertexto tenham vínculo com os mesmos arquivos JavaScript e CSS, podendo facilitar na manutenção e no reuso do código.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Exercício 1.4 Descreva a diferença entre uma página de hipertexto estática e uma dinâmica,
+pontuando as vantagens e desvantagens de cada um dos dois tipos.
+
+R: : Uma página estática é pré-criada e armazenada em um servidor web, mantendo o mesmo conteúdo para todos os usuários e a qualquer momento.
+
+Vantagens:
+Desempenho: Carregamento mais rápido devido à falta de processamento no servidor.
+Simplicidade: Fácil de criar e manter, sem necessidade de código de servidor.
+Segurança: Menos vulnerável a certos tipos de ataques, como injeções de SQL.
+
+Desvantagens:
+Limitações de Interatividade: Incapaz de fornecer conteúdo personalizado ou interações dinâmicas.
+Atualizações Manuais: Atualizações exigem edição manual do código e reenvio para o servidor.
+Escalabilidade Limitada: Dificuldade em manter grandes sites com muitas páginas.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Exercício 1.5 Qual é o caminho percorrido por uma requisição HTTP a uma página de hipertexto
+estática?
+
+R:  1. Digitação do endereço;
+    2. Resolução de DNS;
+    3. Conexão as servidor;
+    4. Envio da requisição;
+    5. Recebimento da resposta;
+    6. Renderização da página;

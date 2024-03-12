@@ -1,0 +1,28 @@
+<!-- Exercício 5.5 Crie um elemento <picture> com duas resoluções diferentes de imagens, uma para telas de até 720px de altura e outra para telas com altura maior que 720px. Use nomes de arquivos fictícios. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imagem Responsiva</title>
+</head>
+
+<h2>Imagem Responsiva</h2>
+<hr>
+<picture>
+
+
+  <!-- COLOQUEI OUTRA IMAGEM PARA FICAR NÍTIDO QUE ENTROU NA CONDICIONAL -->
+  
+  <!-- Para telas de até 720px de altura -->
+  <source media="(max-height: 720px)" srcset="DK-720.jpg">
+
+  <!-- Para telas com altura maior que 720px -->
+  <source media="(min-height: 721px)" srcset="DK.jpg">
+
+  <!-- Fallback para navegadores que não suportam o elemento <picture> -->
+  <img src="DK.jpg" alt="Descrição da Imagem">
+</picture>
+</body>
+</html>

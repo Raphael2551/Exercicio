@@ -1,0 +1,23 @@
+<!-- Exercício 6.1 Crie um elemento de áudio com o atributo controls e adicione dois elementos
+sourse com diferentes formatos de áudio para que o navegador possa escolher qual usar com
+base na compatibilidade. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Áudio HTML com Múltiplas Fontes</title>
+</head>
+<body>
+
+<h2>Exibição de Áudio HTML com Múltiplas Fontes</h2>
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  <source src="audio.ogg" type="audio/ogg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+
+</body>
+</html>
