@@ -1,1 +1,1 @@
-EExercício de HTML e CSS
+Exercício de HTML e CSS
